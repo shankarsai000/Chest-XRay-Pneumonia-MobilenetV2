@@ -38,7 +38,7 @@ This project classifies **chest X-ray images** into **Pneumonia** or **Normal** 
    !pip install gdown
    import gdown
 
-   url = 'https://github.com/shankarsai000/Chest-XRay-Pneumonia-MobilenetV2'
+   url = 'https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia'
    output = 'mobilenetv2_pneumonia.h5'
    gdown.download(url, output, quiet=False)
 3)Upload X-ray Image
